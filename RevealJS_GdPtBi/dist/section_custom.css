@@ -1,0 +1,36 @@
+/*!
+* reveal.js 4.3.1
+* https://revealjs.com
+* MIT licensed
+*
+* Copyright (C) 2011-2022 Hakim El Hattab, https://hakim.se
+*/
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+section {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+section:nth-child(1) {
+  background: lightblue;
+}
+section:nth-child(2) {
+  background: lightgreen;
+}
+section:nth-child(3) {
+  background: purple;
+}
+section:nth-child(4) {
+  background: red;
+}
+section:nth-child(5) {
+  background: yellow;
+}
+
+.reveal .slides section {background-color: red;height: 100%;width: 100%;margin: 0;}
